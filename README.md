@@ -6,7 +6,7 @@ Ready for using in 3 steps:
 
 2. Execute "composer install" command to install Doctrine and Guzzle dependencies.
 
-3. Send requests to address http://www.your_host.com/record
+3. Send requests to URL http://www.your_host.com/record
 
 (The migration to create a new table will start automatically.)
 
