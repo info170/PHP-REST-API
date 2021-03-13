@@ -1,4 +1,3 @@
-
 <h4>REST API Phonebook on PHP</h4>
 
 Ready for using in 3 steps:
@@ -13,29 +12,29 @@ Ready for using in 3 steps:
 
 Available queries:
 
-// return all records
+// return all records<br>
 GET /record
 
-// return a specific record
+// return a specific record<br>
 GET /record/{id}
 
-// return a specific record searching parts of the name
+// return a specific record searching parts of the name<br>
 GET /record/?search=name
 
-// create a new record
+// create a new record<br>
 POST /record
 
-// update an existing record
+// update an existing record<br>
 PUT /record/{id}
 
-// update an existing record
+// update an existing record<br>
 PATCH /record/{id}
 
-// delete an existing record
+// delete an existing record<br>
 DELETE /record/{id}
 
-To add or update queries send data in json format in request body, for example:
 <pre>
+To add or update queries send data in json format in request body, for example:
 {
     "first_name": "Leo",
     "last_name": "Messi",
