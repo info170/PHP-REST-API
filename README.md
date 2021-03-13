@@ -1,11 +1,13 @@
 
 REST API Phonebook on PHP
 
-Ready for using in two steps:
+Ready for using in 3 steps:
 
 1. Edit DB.php file to set DB credentials.
 
-2. Send requests to address http://www.your_host.com/record
+2. Execute "composer install" command to install Doctrine and Guzzle dependencies.
+
+3. Send requests to address http://www.your_host.com/record
 
 (The migration to create a new table will start automatically.)
 
@@ -33,6 +35,7 @@ PATCH /record/{id}
 DELETE /record/{id}
 
 To add or update queries send data in json format in request body, for example:
+<pre>
 {
     "first_name": "Leo",
     "last_name": "Messi",
@@ -40,3 +43,4 @@ To add or update queries send data in json format in request body, for example:
     "country_code": "ZW",
     "time_zone": "America/Denver"
 }
+</pre>
